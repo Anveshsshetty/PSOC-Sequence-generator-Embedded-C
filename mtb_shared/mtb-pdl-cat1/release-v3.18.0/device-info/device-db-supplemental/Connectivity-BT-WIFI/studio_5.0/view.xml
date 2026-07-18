@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <ExposedParameterKeys>
+    <ExposedParamKey id="CPU_MAX_MHZ" param_name="Speed_MHz" />
+    <ExposedParamKey id="POWER_MODES" param_name="Power_Modes" />
+    <ExposedParamKey id="SAR_SAMPLE_RATE" param_name="SAR12Sample_ksps" />
+    <ExposedParamKey id="VDD_MIN" param_name="Vddmin_volts" />
+    <ExposedParamKey id="VDD_MAX" param_name="Vddmax_volts" />
+  </ExposedParameterKeys>
+  <Connectivity location="connectivity" />
+  <Wounding location="chipresourcewoundings.xml" />
+  <PinResourceType value="ioss[%1$d].pin[%2$d]" />
+  <TrigMuxConnectTemplate value="/* NOT USED */" />
+  <TrigMuxSelectTemplate value="/* NOT USED */" />
+  <Profiles>
+    <Profile purpose="MEMORY" displayName="Memory" fileName="memory" evalPriority="8" displayPriority="5" description="Memory configuration" resources="(vres\[\d+\]\.(reserved_memory_region|memory|security)\[\d+\].*)" />
+    <Profile purpose="MEMORY" displayName="Memory" fileName="memory" evalPriority="9" displayPriority="5" description="Memory configuration" resources="(m33syscpuss\[\d+\]\.cm33.*)|(m55appcpuss\[\d+\]\.cm55.*)|(.*\.mpc\[\d+\])" />
+    <Profile displayName="Solutions" fileName="solutions" evalPriority="7" displayPriority="1" description="Solution configuration" resources="vres\[\d+\].*" />
+    <Profile displayName="Connectivity" fileName="connectivity_wifi" evalPriority="1" displayPriority="4" description="Connectivity Wi-Fi configuration" resources="wifi(\[\d+\])?\..+" />
+    <Profile displayName="Connectivity" fileName="connectivity_bt" evalPriority="1" displayPriority="4" description="Connectivity BT configuration" resources="bt(\[\d+\])?\..+" />
+    <Profile displayName="Connectivity" fileName="connectivity_coex" evalPriority="1" displayPriority="4" description="Connectivity Coex configuration" resources="coex(\[\d+\])?\..+" />
+    <Profile displayName="Pins" diagramType="PACKAGE" fileName="pins" evalPriority="6" displayPriority="2" description="Pin configuration" resources=".*" />
+    <Profile purpose="ROUTING" displayName="" fileName="routing" evalPriority="4" displayPriority="3" description="Establishes all necessary connections between hardware elements." resources="NONE">
+      <Includes />
+    </Profile>
+  </Profiles>
+</View>
