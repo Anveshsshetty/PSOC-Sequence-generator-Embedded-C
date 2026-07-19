@@ -103,12 +103,16 @@ Sequence-generator-Embedded-c
 
 # 📷 Project Images
 
-## Hardware Setup
-
-> Add a photo of your complete hardware setup.
+## Block Diagram
 
 ```text
-images/hardware_setup.jpg
+images/Block_diagram.png
+```
+
+## Hardware Setup
+
+```text
+images/Setup.png
 ```
 
 ---
@@ -118,9 +122,12 @@ images/hardware_setup.jpg
 > Add a photo of the TFT display showing the generated sequence.
 
 ```text
-images/output.jpg
+images/valid.jpeg
 ```
 
+```text
+images/invalid.jpeg
+```
 ---
 
 # 🚀 Getting Started
