@@ -58,6 +58,22 @@ This implementation generalizes the solution by allowing the user to choose both
 
 ---
 
+# 🔢 Solution
+
+The sequence is generated using the recurrence relation:
+
+```
+P(n) = P(n−2) + P(n−3)
+```
+
+Unlike the original assignment, the implementation is generalized.
+
+Instead of restricting the user to three input values, the firmware accepts **N input values** and generates the requested number of additional sequence elements.
+
+This enhancement allows the application to support sequences of varying lengths without modifying the source code.
+
+---
+
 # 🛠️ Hardware Used
 
 - Infineon PSoC™ OPTIGA™ Development Kit
