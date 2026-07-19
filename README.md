@@ -144,9 +144,9 @@ Detailed documentation is available in the **docs** folder.
 | 📄 Document | Description |
 |------------|-------------|
 | 🚀 [INSTALLATION.md](docs/INSTALLATION.md) | Complete setup guide, project import, build, and programming instructions |
-| 🧠 [CODE_EXPLANATION.md](docs/CODE_EXPLANATION.md) | Detailed explanation of the source code, program flow, and sequence generation algorithm |
+| 🧠 [DEVELOPER_GUIDE.md](docs/DEVELOPER_GUIDE.md) | Detailed explanation of the source code, program flow, and sequence generation algorithm |
 | 📖 [USER_GUIDE.md](docs/USER_GUIDE.md) | Step-by-step guide to operating the application |
-| 📑 [Project_Report.pdf](docs/Project_Report.pdf) | Complete project report |
+| 📑 [Project_Report.pdf](docs/project_report.pdf) | Complete project report |
 
 ---
 
