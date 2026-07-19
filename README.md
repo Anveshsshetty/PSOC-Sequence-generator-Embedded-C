@@ -63,6 +63,15 @@ This implementation generalizes the solution by allowing the user to choose both
 - Infineon PSoC™ OPTIGA™ Development Kit
 - 4×4 Matrix Keypad
 - ILI9341 TFT Display
+<table align="center">
+<tr>
+<td align="center">
+<img src="images/Block_diagram.png" width="320"><br>
+<b>Block Diagram</b>
+</td>
+</tr>
+</table>
+
 
 ---
 
@@ -101,33 +110,37 @@ Sequence-generator-Embedded-c
 
 ---
 
-# 📷 Project Images
+# 📸 Project Gallery
 
-## Block Diagram
+The following images showcase different aspects of the project, including the hardware setup,Block_diagram,Schematic,TFT Output.
 
-```text
-images/Block_diagram.png
-```
+<table align="center">
 
-## Hardware Setup
+<tr>
+<td align="center">
+<img src="images/schematic.png" width="320"><br>
+<b>🔌Schematic</b>
+</td>
 
-```text
-images/Setup.png
-```
+<td align="center">
+<img src="images/Setup.png" width="320"><br>
+<b>⚡ Hardware Setup (Powered OFF)</b>
+</td>
+</tr>
 
----
+<tr>
+<td align="center">
+<img src="images/valid.jpeg" width="320"><br>
+<b>Valid Outuput</b>
+</td>
 
-## TFT Display Output
+<td align="center">
+<img src="images/Invalid.jpeg" width="320"><br>
+<b>Invalid Outuput</b>
+</td>
+</tr>
 
-> Add a photo of the TFT display showing the generated sequence.
-
-```text
-images/valid.jpeg
-```
-
-```text
-images/invalid.jpeg
-```
+</table>
 ---
 
 # 🚀 Getting Started
