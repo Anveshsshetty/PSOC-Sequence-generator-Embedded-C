@@ -86,7 +86,7 @@ Sequence-generator-Embedded-c
 ├── mtb_shared/
 ├── docs/
 │   ├── INSTALLATION.md
-│   ├── CODE_EXPLANATION.md
+│   ├── DEVELOPER_GUIDE.md
 │   ├── USER_GUIDE.md
 │   └── Project_Report.pdf
 │
@@ -128,7 +128,7 @@ images/output.jpg
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/Sequence-generator-Embedded-c.git
+git clone https://github.com/Anveshsshetty/PSOC-Sequence-generator-Embedded-C.git
 ```
 
 Open the project in **ModusToolbox™** and build it.
